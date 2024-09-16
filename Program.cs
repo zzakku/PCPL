@@ -17,7 +17,7 @@ namespace Biquad
                     do
                     {
                         Console.Write("Введите коэффициент {0}: ", aliases_for_coeffs[i]);                        
-                    } while (!double.TryParse(Console.ReadLine(), out coeffs[i]));         
+                    } while (!double.TryParse(Console.ReadLine(), out coeffs[i]) || (coeffs[0] == 0));         
 
                     i++; // Переходим на следующую итерацию цикла, как только коэффициент обрёл приемлемое значение      
                 }
@@ -31,7 +31,7 @@ namespace Biquad
             {
                 for (int i = 0; i < 3; )
                 {
-                    if (!double.TryParse(args[i], out coeffs[i]))
+                    if (!double.TryParse(args[i], out coeffs[i]) || (coeffs[0] == 0))
                     {
                         Console.WriteLine("Неверный ввод. Попробуйте заново.");
                         return;
