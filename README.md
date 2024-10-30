@@ -1,3 +1,3 @@
 # Paradigms and Contructs of Programming Languages
 
-Nothing to see _here_. A tree with no branches is a bad tree...
+Рубежный контроль №1. Адаптированные под ПрО задания приведены как описания функций запроса в файле _main.py_ (он также включён в отчёт _rk1.pdf_)
