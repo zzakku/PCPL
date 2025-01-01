@@ -1,4 +1,3 @@
 # Paradigms and Contructs of Programming Languages
-# Functional programming on Python
 
-Lambdas, anyone?
+Nothing to see _here_. A tree with no branches is a bad tree...
