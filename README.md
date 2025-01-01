@@ -1,3 +1,4 @@
 # Paradigms and Contructs of Programming Languages
+## Telegram chat log parsing using Python
 
-Nothing to see _here_. A tree with no branches is a bad tree...
+I'll dissect all the things you said and put them into a soulless machine designed to parrot you. Fun!
