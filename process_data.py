@@ -6,11 +6,11 @@ from unique import Unique
 from print_result import print_result
 from cm_timer import cm_timer_1
 
-path = "/home/gato/Документы/funcpy/data_light.json"
+path = r"C:\Users\User\Documents\BiquadraticEquations\PCPL\data_light.json"
 
 # Необходимо в переменную path сохранить путь к файлу, который был передан при запуске сценария
 
-with open(path) as f:
+with open(path, encoding="utf-8") as f:
     data = json.load(f)
 
 # Предполагается, что функции f1, f2, f3 будут реализованы в одну строку
