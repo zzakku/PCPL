@@ -9,7 +9,7 @@ path = "result.json"  # Путь до файла
 
 
 def process_export_log(path):
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)  # Загружаем в память весь лог (плохо для больших файлов?)
 
     data = data["messages"]
@@ -85,5 +85,5 @@ def process_export_log(path):
 
 parsed_log = process_export_log(path)
 
-with open("sourcetext.txt", "w") as f:
+with open("sourcetext.txt", "w", encoding="utf-8") as f:
     print(parsed_log, file=f)
